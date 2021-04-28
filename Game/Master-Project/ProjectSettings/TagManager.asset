@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - unsavedPrefab
+  - savedPrefab
+  - cube
+  - mainCube
+  - mainCube3
+  - mainCube2
+  - mainCube4
+  - mainCube5
+  - mainCube6
+  - mainCube7
+  - mainCube8
+  - mainCube9
+  - mainCube10
+  - mainCube11
+  - mainCube12
+  - mainCube13
+  - mainCube14
+  - mainCube15
+  - mainCube16
+  - mainCube17
+  - mainCube18
+  - mainCube19
+  - mainCube20
+  - mainCube21
+  - mainCube22
+  - mainCube23
+  - mainCube24
+  - mainCube25
+  - mainCube26
+  - mainCube27
+  - mainCube28
+  - mainCube29
+  - mainCube30
+  - mainCube31
+  - mainCube32
+  - mainCube33
+  - mainCube34
+  - mainCube35
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - login
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: login
+    uniqueID: 3528324923
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0

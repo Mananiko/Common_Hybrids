@@ -1,0 +1,3 @@
+group: gaga
+email: gaga@gaga.ge
+password: acc0315d77b19687b5e23fe3aa162869
