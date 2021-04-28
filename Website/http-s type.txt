@@ -1,0 +1,10 @@
+1) get
+2) post
+3) update
+4) delete
+
+
+
+jgupi
+user
+content

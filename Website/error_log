@@ -1,0 +1,6 @@
+[02-Apr-2021 12:29:53 UTC] PHP Warning:  mysqli_connect(): (42000/1044): Access denied for user 'mananikoDB'@'localhost' to database 'commonhybrid' in /home/hl4ysdg5ay21/public_html/check.php on line 8
+[02-Apr-2021 12:30:51 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/hl4ysdg5ay21/public_html/check.php on line 49
+[02-Apr-2021 12:37:19 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/hl4ysdg5ay21/public_html/check.php on line 50
+[02-Apr-2021 12:41:55 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/hl4ysdg5ay21/public_html/login.php on line 46
+[02-Apr-2021 12:42:44 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/hl4ysdg5ay21/public_html/login.php on line 46
+[27-Apr-2021 13:32:35 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/hl4ysdg5ay21/public_html/saveNote.php on line 102

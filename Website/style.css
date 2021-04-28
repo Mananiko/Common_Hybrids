@@ -1,0 +1,401 @@
+o
+@font-face {
+    font-family: "FuturaPTCondMedium";
+    src: url('FuturaPTCondMedium.otf');
+}
+
+@font-face {
+    font-family: "infinityc";
+    src: url('infinityc.ttf');
+}
+
+@font-face {
+    font-family: "FUTURAL";
+    src: url('FUTURAL.TTF');
+}
+
+
+/*Main Parametars------------------------------------------------------------------------------------*/
+*{
+box-sizing: border-box;
+text-size-adjust: none;
+-webkit-text-size-adjust:none;
+}
+a{
+    text-decoration: none;
+}
+html, body {
+margin:0;
+padding:0;
+background-color: #FFFFFF;
+font-family: 'FuturaPTCondMedium','Courier New', Courier, monospace;
+font-size: 16px;
+line-height: 1.6;
+}
+.content_div{
+	height: 100vh;
+	width: 100%;
+	overflow-y: scroll;
+}
+.content_div_in{
+    min-height: 100vh;
+    font-family: 'FUTURAL';
+}
+/*Main Parametars End------------------------------------------------------------------------------------*/
+
+
+/*Scroll Style------------------------------------------------------------------------------------*/
+ #nice_scrollbar::-webkit-scrollbar-track
+ {
+     -webkit-box-shadow: inset 0 0 6px #FFFFFF;
+     background-color:#FFFFFF;
+ }
+ #nice_scrollbar::-webkit-scrollbar
+ {
+     width: 6px;
+     background-color:#FFFFFF;
+ }
+ #nice_scrollbar::-webkit-scrollbar-thumb
+ {
+     background-color: #000000;
+ }
+ .main{
+     width: 100%;
+ }
+ /*Scroll Style End------------------------------------------------------------------------------------*/
+
+
+/*Header Navigation------------------------------------------------------------------------------------*/
+.navigation{
+    /*display: flex;*/
+    align-items: center;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: rgb(0, 0, 0);
+    height:80px;
+    line-height: 40px;
+ }
+ .navigation a{
+    font-family: "infinityc";
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:rgb(255, 255, 255);
+    letter-spacing: 2px;
+    padding-bottom: 5px;
+ }
+.navigation a:hover{
+    background-color: #F5C919;
+    color:rgb(0, 0, 0);
+    transition: all ease 0.2s;
+}
+.rectangleOne{
+    position: absolute;
+    top: 60px;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:2px;
+    left: 0px;
+}
+.rectangleTwo{
+    position: absolute;
+    top: 70px;
+    background-color: rgb(255, 255, 255);
+    width:100%;
+    height:2px;
+    left: 0px;
+}
+.margin_right{
+    margin-right: 10px;
+}
+.inner_right_header{
+    margin-left: auto;
+    display: flex;
+}
+/*Header Navigation End------------------------------------------------------------------------------------*/
+
+.textgame a{
+    color: #EA2127;
+}
+.textgame a:hover{
+    text-decoration: none;
+}
+
+
+
+/*Left Inner Adjustment------------------------------------------------------------------------------------*/
+.first-rectangle{
+    position: absolute;
+    top: -10px;
+    left: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+}
+.second-rectangle{
+    position: absolute;
+    bottom: 300px;
+    right: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;  
+}
+.third-rectangle{
+    position: absolute;
+    top: 700px;
+    right: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+}
+.border-rectangle{
+    position: absolute;
+    top: 500px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.border-rectangle-two{
+    position: absolute;
+    top: 4000px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.fifth-rectangle{
+    position: absolute;
+    top: 1600px;
+    left: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+}
+.border-rectangle-three{
+    position: absolute;
+    top: 1800px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.border-rectangle-four{
+    position: absolute;
+    top: 3000px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.border-rectangle-five{
+    position: absolute;
+    top: 2500px;
+    left: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+}
+.border-rectangle-six{
+    position: absolute;
+    top: 4500px;
+    right: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;  
+}
+.border-rectangle-eight{
+    position: absolute;
+    top: 5500px;
+    right: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;    
+}
+.border-rectangle-nein{
+    position: absolute;
+    top: 5000px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.border-rectangle-ten{
+    position: absolute;
+    top: 1900px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px; 
+}
+.border-rectangle-eleven{
+    position: absolute;
+    top: 7000px;
+    left: 0ch;
+    background-color: black;
+    width:100%;
+    height:1px;
+}
+.border-rectangle-twelf{
+    position: absolute;
+    top:6000px;
+    left: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;
+}
+.border-rectangle-thirteen{
+    position: absolute;
+    top: 6500px;
+    left: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;  
+}
+.border-rectangle-seven{
+    position: absolute;
+    top: 3500px;
+    right: 0ch;
+    background-color: black;
+    width: 400px;
+    height: 30px;  
+}
+.headlines{
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: left;
+    padding: 10px;
+}
+.Maps{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.Try{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.sketch{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.referance{
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+.padding_left_0{
+    padding-left: 0px;
+}
+/*Left Inner Adjustment End------------------------------------------------------------------------------------*/
+
+
+/*right inner adjustment------------------------------------------------------------------------------------*/
+.text{
+    font-family: 'FUTURAL';
+   
+    padding: 5px;
+    margin: 5px;
+}
+.textheader{
+   /*  font-family: 'FuturaPTCondMedium'; */
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+}
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: black ;
+  }
+/*right inner adjustment end------------------------------------------------------------------------------------*/
+
+
+/*registration page------------------------------------------------------------------------------------*/
+.input_example{
+    text-align: center;
+    background-color: #F5C919;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid rgb(0, 0, 0);
+    font-family: 'FUTURAL';
+    font-weight: 400;
+}
+.textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: none;
+    background-color: #f8f8f8;
+    resize: none;
+    font-family: 'FUTURAL';
+    font-weight: 400;
+  }
+  .input_submit{
+    background-color: #F5C919;
+    border: none;
+    color:black ;
+    padding: 12px 24px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: monospace;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  .textheaderregistration{
+   /* font-family: 'FuturaPTCondMedium';*/
+    text-align: justify;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+  /*registration page end------------------------------------------------------------------------------------*/
+
+
+   /*Game Page------------------------------------------------------------------------------------*/
+.gameimage{
+   background-image: url(Images/Background.jpg);
+   height: 100vh;
+   background-repeat:no-repeat; 
+   padding: 5px;
+}
+   .overlay{
+    background-color: #fff;
+    color:#000;
+    width: 800px;
+    height: 600px;
+    /*opacity: 0; 
+    transition: .5s ease; */
+    margin: auto;
+    margin-top: 20px;
+    justify-content: center;
+    font-family: 'FUTURAL';
+   }
+   .container:hover .overlay {
+    opacity: 1;
+  }
+  .textgame {
+    
+    font-size: 20px;
+    -ms-transform: translate(-50%, -50%);
+    text-align: justify;
+    margin: 10px;
+  }  
+
+  .textheadergame{
+   /*font-family: 'FuturaPTCondMedium'; */
+    text-align: center;
+    padding: 5px;
+    margin: 5px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+ /*Game Page End------------------------------------------------------------------------------------*/
